@@ -66,7 +66,7 @@ fuel_perc_2019 decimal(15,7),
 fuel_perc_2020 decimal(15,7)
 );
 
-load data infile 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\Forest_Area_Percent_Land\\API_AG.LND.FRST.ZS_DS2_en_csv_v2_2593121.csv'
+load data infile 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\Fossil_Fuel_Energy_Cons_Percent_Total\\API_EG.USE.COMM.FO.ZS_DS2_en_csv_v2_2593136.csv'
 into table fossil_fuel_energy_perc
 fields terminated by ',' 
 enclosed by '"'
