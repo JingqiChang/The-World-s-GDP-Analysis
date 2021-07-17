@@ -1,0 +1,30 @@
+load data infile 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\Forest_Area_Percent_Land\\API_AG.LND.FRST.ZS_DS2_en_csv_v2_2593121.csv'
+into table forest_area_perc
+fields terminated by ',' 
+enclosed by '"'
+lines terminated by '\r\n'
+ignore 5 lines
+(country_name, country_code, indicator_name, indicator_code,
+@vforest_perc_1960, @vforest_perc_1961, @vforest_perc_1962, @vforest_perc_1963, @vforest_perc_1964, @vforest_perc_1965, @vforest_perc_1966, @vforest_perc_1967, @vforest_perc_1968, @vforest_perc_1969, 
+@vforest_perc_1970, @vforest_perc_1971, @vforest_perc_1972, @vforest_perc_1973, @vforest_perc_1974, @vforest_perc_1975, @vforest_perc_1976, @vforest_perc_1977, @vforest_perc_1978, @vforest_perc_1979,
+@vforest_perc_1980, @vforest_perc_1981, @vforest_perc_1982, @vforest_perc_1983, @vforest_perc_1984, @vforest_perc_1985, @vforest_perc_1986, @vforest_perc_1987, @vforest_perc_1988, @vforest_perc_1989,
+@vforest_perc_1990, @vforest_perc_1991, @vforest_perc_1992, @vforest_perc_1993, @vforest_perc_1994, @vforest_perc_1995, @vforest_perc_1996, @vforest_perc_1997, @vforest_perc_1998, @vforest_perc_1999, 
+@vforest_perc_2000, @vforest_perc_2001, @vforest_perc_2002, @vforest_perc_2003, @vforest_perc_2004, @vforest_perc_2005, @vforest_perc_2006, @vforest_perc_2007, @vforest_perc_2008, @vforest_perc_2009, 
+@vforest_perc_2010, @vforest_perc_2011, @vforest_perc_2012, @vforest_perc_2013, @vforest_perc_2014, @vforest_perc_2015, @vforest_perc_2016, @vforest_perc_2017, @vforest_perc_2018, @vforest_perc_2019, @vforest_perc_2020)
+set
+forest_perc_1960=nullif(@vforest_perc_1960,''),forest_perc_1961=nullif(@vforest_perc_1961,''),forest_perc_1962=nullif(@vforest_perc_1962,''),forest_perc_1963=nullif(@vforest_perc_1963,''),forest_perc_1964=nullif(@vforest_perc_1964,''),
+forest_perc_1965=nullif(@vforest_perc_1965,''),forest_perc_1966=nullif(@vforest_perc_1966,''),forest_perc_1967=nullif(@vforest_perc_1967,''),forest_perc_1968=nullif(@vforest_perc_1968,''),forest_perc_1969=nullif(@vforest_perc_1969,''),
+forest_perc_1970=nullif(@vforest_perc_1970,''),forest_perc_1971=nullif(@vforest_perc_1971,''),forest_perc_1972=nullif(@vforest_perc_1972,''),forest_perc_1973=nullif(@vforest_perc_1973,''),forest_perc_1974=nullif(@vforest_perc_1974,''),
+forest_perc_1975=nullif(@vforest_perc_1975,''),forest_perc_1976=nullif(@vforest_perc_1976,''),forest_perc_1977=nullif(@vforest_perc_1977,''),forest_perc_1978=nullif(@vforest_perc_1978,''),forest_perc_1979=nullif(@vforest_perc_1979,''),
+forest_perc_1980=nullif(@vforest_perc_1980,''),forest_perc_1981=nullif(@vforest_perc_1981,''),forest_perc_1982=nullif(@vforest_perc_1982,''),forest_perc_1983=nullif(@vforest_perc_1983,''),forest_perc_1984=nullif(@vforest_perc_1984,''),
+forest_perc_1985=nullif(@vforest_perc_1985,''),forest_perc_1986=nullif(@vforest_perc_1986,''),forest_perc_1987=nullif(@vforest_perc_1987,''),forest_perc_1988=nullif(@vforest_perc_1988,''),forest_perc_1989=nullif(@vforest_perc_1989,''),
+forest_perc_1990=nullif(@vforest_perc_1990,''),forest_perc_1991=nullif(@vforest_perc_1991,''),forest_perc_1992=nullif(@vforest_perc_1992,''),forest_perc_1993=nullif(@vforest_perc_1993,''),forest_perc_1994=nullif(@vforest_perc_1994,''),
+forest_perc_1995=nullif(@vforest_perc_1995,''),forest_perc_1996=nullif(@vforest_perc_1996,''),forest_perc_1997=nullif(@vforest_perc_1997,''),forest_perc_1998=nullif(@vforest_perc_1998,''),forest_perc_1999=nullif(@vforest_perc_1999,''),
+forest_perc_2000=nullif(@vforest_perc_2000,''),forest_perc_2001=nullif(@vforest_perc_2001,''),forest_perc_2002=nullif(@vforest_perc_2002,''),forest_perc_2003=nullif(@vforest_perc_2003,''),forest_perc_2004=nullif(@vforest_perc_2004,''),
+forest_perc_2005=nullif(@vforest_perc_2005,''),forest_perc_2006=nullif(@vforest_perc_2006,''),forest_perc_2007=nullif(@vforest_perc_2007,''),forest_perc_2008=nullif(@vforest_perc_2008,''),forest_perc_2009=nullif(@vforest_perc_2009,''),
+forest_perc_2010=nullif(@vforest_perc_2010,''),forest_perc_2011=nullif(@vforest_perc_2011,''),forest_perc_2012=nullif(@vforest_perc_2012,''),forest_perc_2013=nullif(@vforest_perc_2013,''),forest_perc_2014=nullif(@vforest_perc_2014,''),
+forest_perc_2015=nullif(@vforest_perc_2015,''),forest_perc_2016=nullif(@vforest_perc_2016,''),forest_perc_2017=nullif(@vforest_perc_2017,''),forest_perc_2018=nullif(@vforest_perc_2018,''),forest_perc_2019=nullif(@vforest_perc_2019,''),
+forest_perc_2020=nullif(@vforest_perc_2020,'')
+;
+
+select * from forest_area_perc;
