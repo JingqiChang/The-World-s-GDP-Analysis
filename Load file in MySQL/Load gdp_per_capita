@@ -1,0 +1,106 @@
+show databases;
+create database co2;
+use co2;
+create table gdp_per_capita(
+country_name varchar(60) not null unique,
+country_code text,
+indicator_name text,
+indicator_code text,
+gdp_p_1960 decimal(15,2),
+gdp_p_1961 decimal(15,2),
+gdp_p_1962 decimal(15,2),
+gdp_p_1963 decimal(15,2),
+gdp_p_1964 decimal(15,2),
+gdp_p_1965 decimal(15,2),
+gdp_p_1966 decimal(15,2),
+gdp_p_1967 decimal(15,2),
+gdp_p_1968 decimal(15,2),
+gdp_p_1969 decimal(15,2),
+gdp_p_1970 decimal(15,2),
+gdp_p_1971 decimal(15,2),
+gdp_p_1972 decimal(15,2),
+gdp_p_1973 decimal(15,2),
+gdp_p_1974 decimal(15,2),
+gdp_p_1975 decimal(15,2),
+gdp_p_1976 decimal(15,2),
+gdp_p_1977 decimal(15,2),
+gdp_p_1978 decimal(15,2),
+gdp_p_1979 decimal(15,2),
+gdp_p_1980 decimal(15,2),
+gdp_p_1981 decimal(15,2),
+gdp_p_1982 decimal(15,2),
+gdp_p_1983 decimal(15,2),
+gdp_p_1984 decimal(15,2),
+gdp_p_1985 decimal(15,2),
+gdp_p_1986 decimal(15,2),
+gdp_p_1987 decimal(15,2),
+gdp_p_1988 decimal(15,2),
+gdp_p_1989 decimal(15,2),
+gdp_p_1990 decimal(15,2),
+gdp_p_1991 decimal(15,2),
+gdp_p_1992 decimal(15,2),
+gdp_p_1993 decimal(15,2),
+gdp_p_1994 decimal(15,2),
+gdp_p_1995 decimal(15,2),
+gdp_p_1996 decimal(15,2),
+gdp_p_1997 decimal(15,2),
+gdp_p_1998 decimal(15,2),
+gdp_p_1999 decimal(15,2),
+gdp_p_2000 decimal(15,2),
+gdp_p_2001 decimal(15,2),
+gdp_p_2002 decimal(15,2),
+gdp_p_2003 decimal(15,2),
+gdp_p_2004 decimal(15,2),
+gdp_p_2005 decimal(15,2),
+gdp_p_2006 decimal(15,2),
+gdp_p_2007 decimal(15,2),
+gdp_p_2008 decimal(15,2),
+gdp_p_2009 decimal(15,2),
+gdp_p_2010 decimal(15,2),
+gdp_p_2011 decimal(15,2),
+gdp_p_2012 decimal(15,2),
+gdp_p_2013 decimal(15,2),
+gdp_p_2014 decimal(15,2),
+gdp_p_2015 decimal(15,2),
+gdp_p_2016 decimal(15,2),
+gdp_p_2017 decimal(15,2),
+gdp_p_2018 decimal(15,2),
+gdp_p_2019 decimal(15,2),
+gdp_p_2020 decimal(15,2)
+);
+
+drop table gdp_per_capita;
+
+describe gdp_per_capita;
+
+load data infile 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\GDP_Per_Capita\\API_NY.GDP.PCAP.CD_DS2_en_csv_v2_2627294.csv'
+into table gdp_per_capita
+fields terminated by ',' 
+optionally enclosed by '"' 
+enclosed by '"'
+lines terminated by '\r\n'
+ignore 5 lines
+(country_name, country_code, indicator_name, indicator_code,
+@vgdp_p_1960, @vgdp_p_1961, @vgdp_p_1962, @vgdp_p_1963, @vgdp_p_1964, @vgdp_p_1965, @vgdp_p_1966, @vgdp_p_1967, @vgdp_p_1968, @vgdp_p_1969, 
+@vgdp_p_1970, @vgdp_p_1971, @vgdp_p_1972, @vgdp_p_1973, @vgdp_p_1974, @vgdp_p_1975, @vgdp_p_1976, @vgdp_p_1977, @vgdp_p_1978, @vgdp_p_1979,
+@vgdp_p_1980, @vgdp_p_1981, @vgdp_p_1982, @vgdp_p_1983, @vgdp_p_1984, @vgdp_p_1985, @vgdp_p_1986, @vgdp_p_1987, @vgdp_p_1988, @vgdp_p_1989,
+@vgdp_p_1990, @vgdp_p_1991, @vgdp_p_1992, @vgdp_p_1993, @vgdp_p_1994, @vgdp_p_1995, @vgdp_p_1996, @vgdp_p_1997, @vgdp_p_1998, @vgdp_p_1999, 
+@vgdp_p_2000, @vgdp_p_2001, @vgdp_p_2002, @vgdp_p_2003, @vgdp_p_2004, @vgdp_p_2005, @vgdp_p_2006, @vgdp_p_2007, @vgdp_p_2008, @vgdp_p_2009, 
+@vgdp_p_2010, @vgdp_p_2011, @vgdp_p_2012, @vgdp_p_2013, @vgdp_p_2014, @vgdp_p_2015, @vgdp_p_2016, @vgdp_p_2017, @vgdp_p_2018, @vgdp_p_2019, @vgdp_p_2020)
+set
+gdp_p_1960=nullif(@vgdp_p_1960,''),gdp_p_1961=nullif(@vgdp_p_1961,''),gdp_p_1962=nullif(@vgdp_p_1962,''),gdp_p_1963=nullif(@vgdp_p_1963,''),gdp_p_1964=nullif(@vgdp_p_1964,''),
+gdp_p_1965=nullif(@vgdp_p_1965,''),gdp_p_1966=nullif(@vgdp_p_1966,''),gdp_p_1967=nullif(@vgdp_p_1967,''),gdp_p_1968=nullif(@vgdp_p_1968,''),gdp_p_1969=nullif(@vgdp_p_1969,''),
+gdp_p_1970=nullif(@vgdp_p_1970,''),gdp_p_1971=nullif(@vgdp_p_1971,''),gdp_p_1972=nullif(@vgdp_p_1972,''),gdp_p_1973=nullif(@vgdp_p_1973,''),gdp_p_1974=nullif(@vgdp_p_1974,''),
+gdp_p_1975=nullif(@vgdp_p_1975,''),gdp_p_1976=nullif(@vgdp_p_1976,''),gdp_p_1977=nullif(@vgdp_p_1977,''),gdp_p_1978=nullif(@vgdp_p_1978,''),gdp_p_1979=nullif(@vgdp_p_1979,''),
+gdp_p_1980=nullif(@vgdp_p_1980,''),gdp_p_1981=nullif(@vgdp_p_1981,''),gdp_p_1982=nullif(@vgdp_p_1982,''),gdp_p_1983=nullif(@vgdp_p_1983,''),gdp_p_1984=nullif(@vgdp_p_1984,''),
+gdp_p_1985=nullif(@vgdp_p_1985,''),gdp_p_1986=nullif(@vgdp_p_1986,''),gdp_p_1987=nullif(@vgdp_p_1987,''),gdp_p_1988=nullif(@vgdp_p_1988,''),gdp_p_1989=nullif(@vgdp_p_1989,''),
+gdp_p_1990=nullif(@vgdp_p_1990,''),gdp_p_1991=nullif(@vgdp_p_1991,''),gdp_p_1992=nullif(@vgdp_p_1992,''),gdp_p_1993=nullif(@vgdp_p_1993,''),gdp_p_1994=nullif(@vgdp_p_1994,''),
+gdp_p_1995=nullif(@vgdp_p_1995,''),gdp_p_1996=nullif(@vgdp_p_1996,''),gdp_p_1997=nullif(@vgdp_p_1997,''),gdp_p_1998=nullif(@vgdp_p_1998,''),gdp_p_1999=nullif(@vgdp_p_1999,''),
+gdp_p_2000=nullif(@vgdp_p_2000,''),gdp_p_2001=nullif(@vgdp_p_2001,''),gdp_p_2002=nullif(@vgdp_p_2002,''),gdp_p_2003=nullif(@vgdp_p_2003,''),gdp_p_2004=nullif(@vgdp_p_2004,''),
+gdp_p_2005=nullif(@vgdp_p_2005,''),gdp_p_2006=nullif(@vgdp_p_2006,''),gdp_p_2007=nullif(@vgdp_p_2007,''),gdp_p_2008=nullif(@vgdp_p_2008,''),gdp_p_2009=nullif(@vgdp_p_2009,''),
+gdp_p_2010=nullif(@vgdp_p_2010,''),gdp_p_2011=nullif(@vgdp_p_2011,''),gdp_p_2012=nullif(@vgdp_p_2012,''),gdp_p_2013=nullif(@vgdp_p_2013,''),gdp_p_2014=nullif(@vgdp_p_2014,''),
+gdp_p_2015=nullif(@vgdp_p_2015,''),gdp_p_2016=nullif(@vgdp_p_2016,''),gdp_p_2017=nullif(@vgdp_p_2017,''),gdp_p_2018=nullif(@vgdp_p_2018,''),gdp_p_2019=nullif(@vgdp_p_2019,''),
+gdp_p_2020=nullif(@vgdp_p_2020,'')
+;
+
+select * from gdp_per_capita;
