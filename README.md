@@ -1,4 +1,4 @@
-# The-World-s-GDP-Analysis
+# The-Worlds-CO2-Emission-Analysis
 ## To analyze the fectors affect CO2 emissions and will these fectors affect the growth of GDP
 
 ### Data Sources: 
