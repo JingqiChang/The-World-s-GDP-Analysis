@@ -1,0 +1,252 @@
+create table gdp_per_capita_list
+select country_name, country_code, indicator_name, '1960' as year, gdp_p_1960 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1961' as year, gdp_p_1961 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1962' as year, gdp_p_1962 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1963' as year, gdp_p_1963 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1964' as year, gdp_p_1964 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1965' as year, gdp_p_1965 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1966' as year, gdp_p_1966 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1967' as year, gdp_p_1967 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1968' as year, gdp_p_1968 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1969' as year, gdp_p_1969 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1970' as year, gdp_p_1970 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1971' as year, gdp_p_1971 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1972' as year, gdp_p_1972 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1973' as year, gdp_p_1973 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1974' as year, gdp_p_1974 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1975' as year, gdp_p_1975 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1976' as year, gdp_p_1976 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1977' as year, gdp_p_1977 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1978' as year, gdp_p_1978 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1979' as year, gdp_p_1979 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1980' as year, gdp_p_1980 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1981' as year, gdp_p_1981 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1982' as year, gdp_p_1982 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1983' as year, gdp_p_1983 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1984' as year, gdp_p_1984 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1985' as year, gdp_p_1985 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1986' as year, gdp_p_1986 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1987' as year, gdp_p_1987 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1988' as year, gdp_p_1988 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1989' as year, gdp_p_1989 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1990' as year, gdp_p_1990 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1991' as year, gdp_p_1991 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1992' as year, gdp_p_1992 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1993' as year, gdp_p_1993 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1994' as year, gdp_p_1994 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1995' as year, gdp_p_1995 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1996' as year, gdp_p_1996 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1997' as year, gdp_p_1997 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1998' as year, gdp_p_1998 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '1999' as year, gdp_p_1999 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '2000' as year, gdp_p_2000 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '2001' as year, gdp_p_2001 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '2002' as year, gdp_p_2002 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '2003' as year, gdp_p_2003 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '2004' as year, gdp_p_2004 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '2005' as year, gdp_p_2005 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '2006' as year, gdp_p_2006 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '2007' as year, gdp_p_2007 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '2008' as year, gdp_p_2008 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '2009' as year, gdp_p_2009 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '2010' as year, gdp_p_2010 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '2011' as year, gdp_p_2011 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '2012' as year, gdp_p_2012 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '2013' as year, gdp_p_2013 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '2014' as year, gdp_p_2014 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '2015' as year, gdp_p_2015 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '2016' as year, gdp_p_2016 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '2017' as year, gdp_p_2017 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '2018' as year, gdp_p_2018 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '2019' as year, gdp_p_2019 as gdp_per_capita from gdp_per_capita
+union all
+select country_name, country_code, indicator_name, '2020' as year, gdp_p_2020 as gdp_per_capita from gdp_per_capita
+;
+
+
+
+
+
+
+create table co2_per_capita_list
+select country_name, country_code, indicator_name, '1960' as year, co2_p_1960 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1961' as year, co2_p_1961 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1962' as year, co2_p_1962 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1963' as year, co2_p_1963 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1964' as year, co2_p_1964 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1965' as year, co2_p_1965 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1966' as year, co2_p_1966 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1967' as year, co2_p_1967 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1968' as year, co2_p_1968 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1969' as year, co2_p_1969 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1970' as year, co2_p_1970 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1971' as year, co2_p_1971 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1972' as year, co2_p_1972 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1973' as year, co2_p_1973 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1974' as year, co2_p_1974 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1975' as year, co2_p_1975 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1976' as year, co2_p_1976 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1977' as year, co2_p_1977 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1978' as year, co2_p_1978 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1979' as year, co2_p_1979 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1980' as year, co2_p_1980 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1981' as year, co2_p_1981 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1982' as year, co2_p_1982 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1983' as year, co2_p_1983 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1984' as year, co2_p_1984 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1985' as year, co2_p_1985 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1986' as year, co2_p_1986 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1987' as year, co2_p_1987 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1988' as year, co2_p_1988 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1989' as year, co2_p_1989 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1990' as year, co2_p_1990 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1991' as year, co2_p_1991 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1992' as year, co2_p_1992 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1993' as year, co2_p_1993 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1994' as year, co2_p_1994 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1995' as year, co2_p_1995 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1996' as year, co2_p_1996 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1997' as year, co2_p_1997 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1998' as year, co2_p_1998 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '1999' as year, co2_p_1999 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '2000' as year, co2_p_2000 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '2001' as year, co2_p_2001 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '2002' as year, co2_p_2002 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '2003' as year, co2_p_2003 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '2004' as year, co2_p_2004 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '2005' as year, co2_p_2005 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '2006' as year, co2_p_2006 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '2007' as year, co2_p_2007 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '2008' as year, co2_p_2008 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '2009' as year, co2_p_2009 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '2010' as year, co2_p_2010 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '2011' as year, co2_p_2011 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '2012' as year, co2_p_2012 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '2013' as year, co2_p_2013 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '2014' as year, co2_p_2014 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '2015' as year, co2_p_2015 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '2016' as year, co2_p_2016 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '2017' as year, co2_p_2017 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '2018' as year, co2_p_2018 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '2019' as year, co2_p_2019 as co2_per_capita from co2_per_capita
+union all
+select country_name, country_code, indicator_name, '2020' as year, co2_p_2020 as co2_per_capita from co2_per_capita
+;
