@@ -73,7 +73,7 @@ enclosed by '"'
 lines terminated by '\r\n'
 ignore 5 lines
 (country_name, country_code, indicator_name, indicator_code,
-@vfuel_perc_1960, @vfuel_perc_1961, @vfuel_perc_1962, @vfuel_perc_1963, @vfuel_perc_1964, @vfuel_perc_1965, @vfuel_perc_1966, @vfuel_perc_1967, @vfuel_perc_1968, @vcfuel_perc_1969, 
+@vfuel_perc_1960, @vfuel_perc_1961, @vfuel_perc_1962, @vfuel_perc_1963, @vfuel_perc_1964, @vfuel_perc_1965, @vfuel_perc_1966, @vfuel_perc_1967, @vfuel_perc_1968, @vfuel_perc_1969, 
 @vfuel_perc_1970, @vfuel_perc_1971, @vfuel_perc_1972, @vfuel_perc_1973, @vfuel_perc_1974, @vfuel_perc_1975, @vfuel_perc_1976, @vfuel_perc_1977, @vfuel_perc_1978, @vfuel_perc_1979,
 @vfuel_perc_1980, @vfuel_perc_1981, @vfuel_perc_1982, @vfuel_perc_1983, @vfuel_perc_1984, @vfuel_perc_1985, @vfuel_perc_1986, @vfuel_perc_1987, @vfuel_perc_1988, @vfuel_perc_1989,
 @vfuel_perc_1990, @vfuel_perc_1991, @vfuel_perc_1992, @vfuel_perc_1993, @vfuel_perc_1994, @vfuel_perc_1995, @vfuel_perc_1996, @vfuel_perc_1997, @vfuel_perc_1998, @vfuel_perc_1999, 
