@@ -253,124 +253,629 @@ select country_name, country_code, indicator_name, '2020' as year, co2_p_2020 as
 
 
 create table fossil_fuel_energy_perc_list
-select country_name, country_code, indicator_name, '1960' as year, fuel_p_1960 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1960' as year, fuel_perc_1960 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1961' as year, fuel_p_1961 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1961' as year, fuel_perc_1961 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1962' as year, fuel_p_1962 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1962' as year, fuel_perc_1962 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1963' as year, fuel_p_1963 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1963' as year, fuel_perc_1963 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1964' as year, fuel_p_1964 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1964' as year, fuel_perc_1964 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1965' as year, fuel_p_1965 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1965' as year, fuel_perc_1965 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1966' as year, fuel_p_1966 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1966' as year, fuel_perc_1966 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1967' as year, fuel_p_1967 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1967' as year, fuel_perc_1967 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1968' as year, fuel_p_1968 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1968' as year, fuel_perc_1968 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1969' as year, fuel_p_1969 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1969' as year, fuel_perc_1969 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1970' as year, fuel_p_1970 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1970' as year, fuel_perc_1970 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1971' as year, fuel_p_1971 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1971' as year, fuel_perc_1971 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1972' as year, fuel_p_1972 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1972' as year, fuel_perc_1972 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1973' as year, fuel_p_1973 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1973' as year, fuel_perc_1973 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1974' as year, fuel_p_1974 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1974' as year, fuel_perc_1974 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1975' as year, fuel_p_1975 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1975' as year, fuel_perc_1975 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1976' as year, fuel_p_1976 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1976' as year, fuel_perc_1976 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1977' as year, fuel_p_1977 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1977' as year, fuel_perc_1977 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1978' as year, fuel_p_1978 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1978' as year, fuel_perc_1978 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1979' as year, fuel_p_1979 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1979' as year, fuel_perc_1979 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1980' as year, fuel_p_1980 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1980' as year, fuel_perc_1980 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1981' as year, fuel_p_1981 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1981' as year, fuel_perc_1981 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1982' as year, fuel_p_1982 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1982' as year, fuel_perc_1982 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1983' as year, fuel_p_1983 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1983' as year, fuel_perc_1983 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1984' as year, fuel_p_1984 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1984' as year, fuel_perc_1984 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1985' as year, fuel_p_1985 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1985' as year, fuel_perc_1985 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1986' as year, fuel_p_1986 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1986' as year, fuel_perc_1986 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1987' as year, fuel_p_1987 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1987' as year, fuel_perc_1987 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1988' as year, fuel_p_1988 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1988' as year, fuel_perc_1988 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1989' as year, fuel_p_1989 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1989' as year, fuel_perc_1989 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1990' as year, fuel_p_1990 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1990' as year, fuel_perc_1990 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1991' as year, fuel_p_1991 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1991' as year, fuel_perc_1991 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1992' as year, fuel_p_1992 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1992' as year, fuel_perc_1992 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1993' as year, fuel_p_1993 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1993' as year, fuel_perc_1993 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1994' as year, fuel_p_1994 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1994' as year, fuel_perc_1994 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1995' as year, fuel_p_1995 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1995' as year, fuel_perc_1995 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1996' as year, fuel_p_1996 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1996' as year, fuel_perc_1996 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1997' as year, fuel_p_1997 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1997' as year, fuel_perc_1997 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1998' as year, fuel_p_1998 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1998' as year, fuel_perc_1998 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '1999' as year, fuel_p_1999 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '1999' as year, fuel_perc_1999 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '2000' as year, fuel_p_2000 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '2000' as year, fuel_perc_2000 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '2001' as year, fuel_p_2001 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '2001' as year, fuel_perc_2001 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '2002' as year, fuel_p_2002 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '2002' as year, fuel_perc_2002 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '2003' as year, fuel_p_2003 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '2003' as year, fuel_perc_2003 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '2004' as year, fuel_p_2004 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '2004' as year, fuel_perc_2004 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '2005' as year, fuel_p_2005 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '2005' as year, fuel_perc_2005 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '2006' as year, fuel_p_2006 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '2006' as year, fuel_perc_2006 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '2007' as year, fuel_p_2007 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '2007' as year, fuel_perc_2007 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '2008' as year, fuel_p_2008 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '2008' as year, fuel_perc_2008 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '2009' as year, fuel_p_2009 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '2009' as year, fuel_perc_2009 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '2010' as year, fuel_p_2010 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '2010' as year, fuel_perc_2010 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '2011' as year, fuel_p_2011 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '2011' as year, fuel_perc_2011 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '2012' as year, fuel_p_2012 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '2012' as year, fuel_perc_2012 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '2013' as year, fuel_p_2013 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '2013' as year, fuel_perc_2013 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '2014' as year, fuel_p_2014 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '2014' as year, fuel_perc_2014 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '2015' as year, fuel_p_2015 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '2015' as year, fuel_perc_2015 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '2016' as year, fuel_p_2016 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '2016' as year, fuel_perc_2016 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '2017' as year, fuel_p_2017 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '2017' as year, fuel_perc_2017 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '2018' as year, fuel_p_2018 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '2018' as year, fuel_perc_2018 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '2019' as year, fuel_p_2019 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
+select country_name, country_code, indicator_name, '2019' as year, fuel_perc_2019 as fossil_fuel_energy_perc from fossil_fuel_energy_perc
 union all
-select country_name, country_code, indicator_name, '2020' as year, fuel_p_2020 as fossil_fuel_energy_perc from fossil_fuel_energy_perc;
+select country_name, country_code, indicator_name, '2020' as year, fuel_perc_2020 as fossil_fuel_energy_perc from fossil_fuel_energy_perc;
+
+
+
+create table forest_area_perc_list
+select country_name, country_code, indicator_name, '1960' as year, forest_perc_1960 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1961' as year, forest_perc_1961 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1962' as year, forest_perc_1962 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1963' as year, forest_perc_1963 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1964' as year, forest_perc_1964 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1965' as year, forest_perc_1965 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1966' as year, forest_perc_1966 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1967' as year, forest_perc_1967 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1968' as year, forest_perc_1968 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1969' as year, forest_perc_1969 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1970' as year, forest_perc_1970 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1971' as year, forest_perc_1971 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1972' as year, forest_perc_1972 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1973' as year, forest_perc_1973 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1974' as year, forest_perc_1974 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1975' as year, forest_perc_1975 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1976' as year, forest_perc_1976 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1977' as year, forest_perc_1977 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1978' as year, forest_perc_1978 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1979' as year, forest_perc_1979 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1980' as year, forest_perc_1980 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1981' as year, forest_perc_1981 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1982' as year, forest_perc_1982 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1983' as year, forest_perc_1983 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1984' as year, forest_perc_1984 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1985' as year, forest_perc_1985 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1986' as year, forest_perc_1986 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1987' as year, forest_perc_1987 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1988' as year, forest_perc_1988 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1989' as year, forest_perc_1989 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1990' as year, forest_perc_1990 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1991' as year, forest_perc_1991 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1992' as year, forest_perc_1992 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1993' as year, forest_perc_1993 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1994' as year, forest_perc_1994 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1995' as year, forest_perc_1995 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1996' as year, forest_perc_1996 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1997' as year, forest_perc_1997 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1998' as year, forest_perc_1998 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '1999' as year, forest_perc_1999 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '2000' as year, forest_perc_2000 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '2001' as year, forest_perc_2001 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '2002' as year, forest_perc_2002 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '2003' as year, forest_perc_2003 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '2004' as year, forest_perc_2004 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '2005' as year, forest_perc_2005 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '2006' as year, forest_perc_2006 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '2007' as year, forest_perc_2007 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '2008' as year, forest_perc_2008 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '2009' as year, forest_perc_2009 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '2010' as year, forest_perc_2010 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '2011' as year, forest_perc_2011 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '2012' as year, forest_perc_2012 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '2013' as year, forest_perc_2013 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '2014' as year, forest_perc_2014 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '2015' as year, forest_perc_2015 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '2016' as year, forest_perc_2016 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '2017' as year, forest_perc_2017 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '2018' as year, forest_perc_2018 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '2019' as year, forest_perc_2019 as forest_area_perc from forest_area_perc
+union all
+select country_name, country_code, indicator_name, '2020' as year, forest_perc_2020 as forest_area_perc from forest_area_perc
+union all
+;
+
+
+
+create table alter_nuclear_energy_perc_list
+select country_name, country_code, indicator_name, '1960' as year, nuclear_perc_1960 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1961' as year, nuclear_perc_1961 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1962' as year, nuclear_perc_1962 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1963' as year, nuclear_perc_1963 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1964' as year, nuclear_perc_1964 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1965' as year, nuclear_perc_1965 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1966' as year, nuclear_perc_1966 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1967' as year, nuclear_perc_1967 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1968' as year, nuclear_perc_1968 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1969' as year, nuclear_perc_1969 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1970' as year, nuclear_perc_1970 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1971' as year, nuclear_perc_1971 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1972' as year, nuclear_perc_1972 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1973' as year, nuclear_perc_1973 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1974' as year, nuclear_perc_1974 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1975' as year, nuclear_perc_1975 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1976' as year, nuclear_perc_1976 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1977' as year, nuclear_perc_1977 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1978' as year, nuclear_perc_1978 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1979' as year, nuclear_perc_1979 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1980' as year, nuclear_perc_1980 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1981' as year, nuclear_perc_1981 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1982' as year, nuclear_perc_1982 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1983' as year, nuclear_perc_1983 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1984' as year, nuclear_perc_1984 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1985' as year, nuclear_perc_1985 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1986' as year, nuclear_perc_1986 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1987' as year, nuclear_perc_1987 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1988' as year, nuclear_perc_1988 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1989' as year, nuclear_perc_1989 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1990' as year, nuclear_perc_1990 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1991' as year, nuclear_perc_1991 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1992' as year, nuclear_perc_1992 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1993' as year, nuclear_perc_1993 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1994' as year, nuclear_perc_1994 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1995' as year, nuclear_perc_1995 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1996' as year, nuclear_perc_1996 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1997' as year, nuclear_perc_1997 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1998' as year, nuclear_perc_1998 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '1999' as year, nuclear_perc_1999 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '2000' as year, nuclear_perc_2000 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '2001' as year, nuclear_perc_2001 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '2002' as year, nuclear_perc_2002 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '2003' as year, nuclear_perc_2003 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '2004' as year, nuclear_perc_2004 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '2005' as year, nuclear_perc_2005 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '2006' as year, nuclear_perc_2006 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '2007' as year, nuclear_perc_2007 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '2008' as year, nuclear_perc_2008 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '2009' as year, nuclear_perc_2009 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '2010' as year, nuclear_perc_2010 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '2011' as year, nuclear_perc_2011 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '2012' as year, nuclear_perc_2012 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '2013' as year, nuclear_perc_2013 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '2014' as year, nuclear_perc_2014 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '2015' as year, nuclear_perc_2015 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '2016' as year, nuclear_perc_2016 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '2017' as year, nuclear_perc_2017 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '2018' as year, nuclear_perc_2018 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '2019' as year, nuclear_perc_2019 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+union all
+select country_name, country_code, indicator_name, '2020' as year, nuclear_perc_2020 as alter_nuclear_energy_perc from alter_nuclear_energy_perc
+;
+
+
+
+create table coal_source_electricity_prod_perc_list
+select country_name, country_code, indicator_name, '1960' as year, coal_perc_1960 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1961' as year, coal_perc_1961 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1962' as year, coal_perc_1962 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1963' as year, coal_perc_1963 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1964' as year, coal_perc_1964 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1965' as year, coal_perc_1965 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1966' as year, coal_perc_1966 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1967' as year, coal_perc_1967 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1968' as year, coal_perc_1968 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1969' as year, coal_perc_1969 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1970' as year, coal_perc_1970 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1971' as year, coal_perc_1971 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1972' as year, coal_perc_1972 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1973' as year, coal_perc_1973 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1974' as year, coal_perc_1974 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1975' as year, coal_perc_1975 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1976' as year, coal_perc_1976 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1977' as year, coal_perc_1977 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1978' as year, coal_perc_1978 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1979' as year, coal_perc_1979 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1980' as year, coal_perc_1980 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1981' as year, coal_perc_1981 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1982' as year, coal_perc_1982 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1983' as year, coal_perc_1983 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1984' as year, coal_perc_1984 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1985' as year, coal_perc_1985 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1986' as year, coal_perc_1986 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1987' as year, coal_perc_1987 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1988' as year, coal_perc_1988 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1989' as year, coal_perc_1989 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1990' as year, coal_perc_1990 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1991' as year, coal_perc_1991 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1992' as year, coal_perc_1992 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1993' as year, coal_perc_1993 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1994' as year, coal_perc_1994 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1995' as year, coal_perc_1995 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1996' as year, coal_perc_1996 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1997' as year, coal_perc_1997 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1998' as year, coal_perc_1998 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '1999' as year, coal_perc_1999 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '2000' as year, coal_perc_2000 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '2001' as year, coal_perc_2001 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '2002' as year, coal_perc_2002 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '2003' as year, coal_perc_2003 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '2004' as year, coal_perc_2004 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '2005' as year, coal_perc_2005 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '2006' as year, coal_perc_2006 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '2007' as year, coal_perc_2007 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '2008' as year, coal_perc_2008 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '2009' as year, coal_perc_2009 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '2010' as year, coal_perc_2010 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '2011' as year, coal_perc_2011 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '2012' as year, coal_perc_2012 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '2013' as year, coal_perc_2013 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '2014' as year, coal_perc_2014 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '2015' as year, coal_perc_2015 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '2016' as year, coal_perc_2016 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '2017' as year, coal_perc_2017 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '2018' as year, coal_perc_2018 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '2019' as year, coal_perc_2019 as coal_source_perc from coal_source_electricity_prod_perc
+union all
+select country_name, country_code, indicator_name, '2020' as year, coal_perc_2020 as coal_source_perc from coal_source_electricity_prod_perc
+;
+
+
+
+create table renewable_consumption_perc_list
+select country_name, country_code, indicator_name, '1960' as year, renew_perc_1960 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1961' as year, renew_perc_1961 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1962' as year, renew_perc_1962 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1963' as year, renew_perc_1963 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1964' as year, renew_perc_1964 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1965' as year, renew_perc_1965 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1966' as year, renew_perc_1966 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1967' as year, renew_perc_1967 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1968' as year, renew_perc_1968 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1969' as year, renew_perc_1969 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1970' as year, renew_perc_1970 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1971' as year, renew_perc_1971 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1972' as year, renew_perc_1972 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1973' as year, renew_perc_1973 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1974' as year, renew_perc_1974 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1975' as year, renew_perc_1975 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1976' as year, renew_perc_1976 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1977' as year, renew_perc_1977 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1978' as year, renew_perc_1978 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1979' as year, renew_perc_1979 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1980' as year, renew_perc_1980 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1981' as year, renew_perc_1981 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1982' as year, renew_perc_1982 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1983' as year, renew_perc_1983 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1984' as year, renew_perc_1984 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1985' as year, renew_perc_1985 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1986' as year, renew_perc_1986 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1987' as year, renew_perc_1987 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1988' as year, renew_perc_1988 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1989' as year, renew_perc_1989 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1990' as year, renew_perc_1990 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1991' as year, renew_perc_1991 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1992' as year, renew_perc_1992 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1993' as year, renew_perc_1993 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1994' as year, renew_perc_1994 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1995' as year, renew_perc_1995 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1996' as year, renew_perc_1996 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1997' as year, renew_perc_1997 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1998' as year, renew_perc_1998 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '1999' as year, renew_perc_1999 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '2000' as year, renew_perc_2000 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '2001' as year, renew_perc_2001 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '2002' as year, renew_perc_2002 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '2003' as year, renew_perc_2003 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '2004' as year, renew_perc_2004 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '2005' as year, renew_perc_2005 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '2006' as year, renew_perc_2006 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '2007' as year, renew_perc_2007 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '2008' as year, renew_perc_2008 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '2009' as year, renew_perc_2009 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '2010' as year, renew_perc_2010 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '2011' as year, renew_perc_2011 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '2012' as year, renew_perc_2012 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '2013' as year, renew_perc_2013 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '2014' as year, renew_perc_2014 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '2015' as year, renew_perc_2015 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '2016' as year, renew_perc_2016 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '2017' as year, renew_perc_2017 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '2018' as year, renew_perc_2018 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '2019' as year, renew_perc_2019 as renewable_consumption_perc from renewable_consumption_perc
+union all
+select country_name, country_code, indicator_name, '2020' as year, renew_perc_2020 as renewable_consumption_perc from renewable_consumption_perc
+;
