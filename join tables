@@ -1,0 +1,29 @@
+select gdp_per_capita_list.country_name,
+		gdp_per_capita_list.country_code, 
+        gdp_per_capita_list.year, 
+        gdp_per_capita,
+        co2_per_capita,
+        fossil_fuel_energy_perc,
+        forest_area_perc,
+        alter_nuclear_energy_perc,
+        coal_source_perc
+from gdp_per_capita_list
+left join co2_per_capita_list
+on gdp_per_capita_list.country_name = co2_per_capita_list.country_name
+and gdp_per_capita_list.year = co2_per_capita_list.year
+left join fossil_fuel_energy_perc_list
+on gdp_per_capita_list.country_name = fossil_fuel_energy_perc_list.country_name
+and gdp_per_capita_list.year = fossil_fuel_energy_perc_list.year
+left join forest_area_perc_list
+on gdp_per_capita_list.country_name = forest_area_perc_list.country_name
+and gdp_per_capita_list.year = forest_area_perc_list.year
+left join alter_nuclear_energy_perc_list
+on gdp_per_capita_list.country_name = alter_nuclear_energy_perc_list.country_name
+and gdp_per_capita_list.year = alter_nuclear_energy_perc_list.year
+left join renewable_consumption_perc_list
+on gdp_per_capita_list.country_name = renewable_consumption_perc_list.country_name
+and gdp_per_capita_list.year = renewable_consumption_perc_list.year
+left join coal_source_electricity_prod_perc_list
+on gdp_per_capita_list.country_name = coal_source_electricity_prod_perc_list.country_name
+and gdp_per_capita_list.year = coal_source_electricity_prod_perc_list.year
+limit 16500;
