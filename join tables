@@ -6,7 +6,10 @@ select gdp_per_capita_list.country_name,
         fossil_fuel_energy_perc,
         forest_area_perc,
         alter_nuclear_energy_perc,
-        coal_source_perc
+        renewable_consumption_perc,
+        coal_source_perc,
+        latitude,
+        longitude
 from gdp_per_capita_list
 left join co2_per_capita_list
 on gdp_per_capita_list.country_name = co2_per_capita_list.country_name
@@ -26,4 +29,8 @@ and gdp_per_capita_list.year = renewable_consumption_perc_list.year
 left join coal_source_electricity_prod_perc_list
 on gdp_per_capita_list.country_name = coal_source_electricity_prod_perc_list.country_name
 and gdp_per_capita_list.year = coal_source_electricity_prod_perc_list.year
+left join long_lat
+on gdp_per_capita_list.country_name = long_lat.country
+# in MySQL auto limit 5000, if the records exceed 5000, need manually add limit number
 limit 16500;
+
