@@ -1,0 +1,20 @@
+create table long_lat(
+country_code text not null,
+latitude decimal(10,6) not null,
+longitude decimal(10,6) not null,
+country text not null
+);
+
+drop table long_lat;
+describe long_lat;
+truncate table long_lat;
+
+load data infile 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\long_lat.csv'
+into table long_lat
+character set utf8mb4
+fields terminated by ',' 
+optionally enclosed by '"'
+lines terminated by '\r\n'
+ignore 1 lines;
+
+select * from long_lat;
