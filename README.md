@@ -22,3 +22,11 @@ CO2 emission per capita (https://data.worldbank.org/indicator/EN.ATM.CO2E.PC)
 GDP per capita (https://data.worldbank.org/indicator/NY.GDP.PCAP.CD)
 
 ![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/CO2%20Emission%20Per%20Capita%20in%20the%20World%20Map.png)
+
+![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/CO2%20Emission%20%26%20Income%20Divided.png)
+
+![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/CO2%20Emission%20by%20income.png)
+
+![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/CO2%20Emission%20vs%20GDP%20by%20Income.png)
+
+![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/CO2%20Emission%20vs%20GDP%20in%20High%20Income.png)
