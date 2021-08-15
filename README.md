@@ -39,6 +39,6 @@ GDP per capita (https://data.worldbank.org/indicator/NY.GDP.PCAP.CD)
 
 ![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/Fossil%20Fuel%20Consumptin%20compared%20by%20income.png)
 
-![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/Fossil%20Fuel%20consumption%20in%20Eruope.png)
-
 ![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/Alternative%20and%20Nuclear%20energy%20change%20trend.png)
+
+![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/Fossil%20Fuel%20consumption%20in%20Eruope.png)
