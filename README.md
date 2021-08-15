@@ -33,7 +33,13 @@ I finded that the countries who had higher CO2 emissions was more likely to be a
 
 ![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/CO2%20Emission%20%26%20Income%20Divided.png)
 
+We want to see more details about CO2 emission per capita in different area. In high income countries, each people consumed 5 times CO2 than people who living in middle income countries, and the CO2 emission for each person in middle income area is double of CO2 emission in low income area from 1960 to 2020.
+So people who was living in high income countries emitted much more carbon dioxide than people who was living in middle income and low income contries.
+
 ![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/CO2%20Emission%20by%20income.png)
+
+Let's compared CO2 emission and GDP growth for each person in different area.
+It is clear to compare CO2 emission and GDP growth in high income countries, middle income coountries and low income countries. Although high income countries' CO2 emission is 5 times of CO2 than middle income countries, its GDP is 9 times higher than middle income countries'.
 
 ![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/CO2%20Emission%20vs%20GDP%20by%20Income.png)
 
