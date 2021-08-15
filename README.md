@@ -20,3 +20,5 @@ Renewable energy consumption (https://data.worldbank.org/indicator/EG.FEC.RNEW.Z
 CO2 emission per capita (https://data.worldbank.org/indicator/EN.ATM.CO2E.PC)
 
 GDP per capita (https://data.worldbank.org/indicator/NY.GDP.PCAP.CD)
+
+！[image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/CO2%20Emission%20Per%20Capita%20in%20the%20World%20Map.png)
