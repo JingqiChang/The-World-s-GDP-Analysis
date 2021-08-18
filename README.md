@@ -21,6 +21,10 @@ CO2 emission per capita (https://data.worldbank.org/indicator/EN.ATM.CO2E.PC)
 
 GDP per capita (https://data.worldbank.org/indicator/NY.GDP.PCAP.CD)
 
+### Tableau Publc Dashboard Link
+
+https://public.tableau.com/app/profile/jingqi.chang/viz/CO2Report_16292616459920/Story1?publish=yes
+
 ### Analyze Report
 
 At first, the average CO2 emission for each person was the highest in West Asia, and higher in Europe and North America than other countries in the nearest 2 decades. Because I considered the counties' who's CO2 emission is the most than others, so the map only showed top 30 countries with highest CO2 emission per capita.
