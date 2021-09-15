@@ -29,10 +29,14 @@ https://public.tableau.com/app/profile/jingqi.chang/viz/CO2Report_16292616459920
 
 At first, the average CO2 emission for each person was the highest in West Asia, and higher in Europe and North America than other countries in the nearest 2 decades. Because I considered the counties' who's CO2 emission is the most than others, so the map only showed top 30 countries with highest CO2 emission per capita.
 
+![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/CO2%20Map.PNG)
+
 ![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/CO2%20Emission%20Per%20Capita%20in%20the%20World%20Map.png)
 
 TO consider the relationship between CO2 Emission and GDP, I divided the coountries with high income countries, middle income countries and low income countries. Found that the countries who had higher CO2 emissions was more likely to be a high imcome country.
 (Blue cricle is high income country, yellow circle is middle income country and red circle is low income country)
+
+![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/Income%20Map.PNG)
 
 ![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/CO2%20Emission%20%26%20Income%20Divided.png)
 
@@ -44,7 +48,17 @@ So people who was living in high income countries emitted much more carbon dioxi
 Let's compared CO2 emission and GDP growth for each person in different area.
 It is clear to compare CO2 emission and GDP growth in high income countries, middle income coountries and low income countries. Although high income countries' CO2 emission is 5 times of CO2 than middle income countries, its GDP is 9 times higher than middle income countries'.
 
+![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/Energy%20Consumption%20Pie%20chart.PNG)
+
+![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/CO2%20vs%20GDP.PNG)
+
+![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/Forest%20Map.PNG)
+
 ![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/CO2%20Emission%20vs%20GDP%20by%20Income.png)
+
+![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/Coal%20Source%20Income%20conpare.PNG)
+
+![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/Top%2010%20CO2%20countries.PNG)
 
 ![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/CO2%20Emission%20vs%20GDP%20in%20High%20Income.png)
 
