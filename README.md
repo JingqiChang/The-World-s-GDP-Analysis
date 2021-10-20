@@ -31,7 +31,7 @@ At first, the average CO2 emission for each person was the highest in West Asia,
 
 ![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/CO2%20Map.PNG)
 
-TO consider the relationship between CO2 Emission and GDP, I divided the coountries with high income countries, middle income countries and low income countries. Found that the countries who had higher CO2 emissions was more likely to be a high imcome country.
+To consider the relationship between CO2 Emission and GDP, I divided the coountries with high income countries, middle income countries and low income countries. Found that the countries who had higher CO2 emissions was more likely to be a high imcome country.
 (Blue cricle is high income country, yellow circle is middle income country and red circle is low income country)
 
 ![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/Income%20Map.PNG)
