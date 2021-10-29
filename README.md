@@ -36,6 +36,8 @@ To consider the relationship between CO2 Emission and GDP, I divided the coountr
 
 ![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/Income%20Map.PNG)
 
+The little circle means countries divided by income, big circle means CO2 emision.
+
 ![image](https://github.com/JingqiChang/The-Worlds-CO2-Emission-Analysis/blob/main/Tableau-Dashboard/CO2%20Emission%20%26%20Income%20Divided.png)
 
 We want to see more details about CO2 emission per capita in different area. In high income countries, each people consumed 5 times CO2 than people who living in middle income countries, and the CO2 emission for each person in middle income area is double of CO2 emission in low income area from 1960 to 2020.
