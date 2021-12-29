@@ -32,5 +32,5 @@ and gdp_per_capita_list.year = coal_source_electricity_prod_perc_list.year
 left join long_lat
 on gdp_per_capita_list.country_name = long_lat.country
 # in MySQL auto limit 5000, if the records exceed 5000, need manually add limit number
-limit 16500;
-
+limit 16500
+;
