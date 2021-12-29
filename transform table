@@ -878,4 +878,5 @@ union all
 select country_name, country_code, indicator_name, '2019' as year, renew_perc_2019 as renewable_consumption_perc from renewable_consumption_perc
 union all
 select country_name, country_code, indicator_name, '2020' as year, renew_perc_2020 as renewable_consumption_perc from renewable_consumption_perc
+
 ;
